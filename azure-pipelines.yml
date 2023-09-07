@@ -126,4 +126,5 @@ stages:
                manifests: |
                  $(Pipeline.Workspace)/Manifests/deployment.yml
                  $(Pipeline.Workspace)/Manifests/service.yml
+                 $(Pipeline.Workspace)/Manifests/ingress.yml
                containers: 'njsdemoapp1:latest'
